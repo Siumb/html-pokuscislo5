@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <style>
+
+body {
+background-image: linear-gradient(to right, #999999, #B8B8B8);
+}
+   
+.container {
+display: grid;
+width: 1040px;
+height: 1360px;
+margin: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+gap: 50px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 0.5fr 1fr 2.5fr 2.5fr 0.5fr;
+}
+
+.item {
+background-color: black;
+box-shadow: 8px 8px 3px -1px #6B6B6B50;
+color: white;
+padding: 20px;
+}
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+li {
+display: inline;
+padding: 20px;
+}
+
+.bar {
+grid-column: span 3;
+height: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 20px;
+
+}
+
+ .bar:nth-child(1) {
+  margin-bottom: -20px;
+}
+
+.one {
+grid-column: span 2;
+background-image: linear-gradient(to right, #999999, #B8B8B8);
+}
+
+h {
+font-weight: bold;
+font-size: 20px;
+}
+
+.siu {
+max-width: 120px;
+margin: 0;
+padding: 0;
+}
+
+.two {
+display: flex;
+justify-content: space-between;
+}
+
+.two2 {
+flex-direction: column;
+box-shadow: none;
+margin: 0;
+padding: 0;
+}
+
+.category {
+display: flex;
+justify-content: space-between;
+}
+
+.meme {
+width: 280px;
+}
+
+.main {
+margin-top: 20px;
+}
+
+.footer {
+grid-column: span 3;
+text-align: center;
+background-image: linear-gradient(to right, #999999, #B8B8B8);
+}
+  </style>
+</head>
+
+<body>
+  <div class="container">
+<div class="item bar">
+<div class="logo"><img src="..." alt="autodesk logo" />
+   </div>
+   <div class="menu">
+    <ul>
+     <li>Search</li>
+     <li>Autodesk</li>
+     <li>About</li>
+    </ul>
+   </div>
+</div>
+    <div class="item one">
+<h>Block</h>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u
+t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+esse cillum dolore eu fugiat nulla pariatur.</p>
+</div>
+    <div class="item two"><div class="item two2">
+<h>Siu Siu</h>
+<p>The best autor</p></div><img class="siu" src="./Capture_Siu.png" alt="Siu photo" />
+</div>
+    <div class="item three"><img class="meme one" src="./m8zmo.jpg" alt="whaaat" />
+<div class="main"><h>Text</h>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u
+t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+nisi ut aliquip ex ea commodo consequat.</p></div>
+<div class="category">
+<p>→</p>
+<p>Category | 1.2.2024</p></div></div>
+    <div class="item four">
+<img class="meme one" src="./m8zmo.jpg" alt="whaaat" />
+<div class="main"><h>Text</h>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u
+t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+nisi ut aliquip ex ea commodo consequat.</p></div>
+<div class="category">
+<p>→</p>
+<p>Category | 1.2.2024</p></div>
+</div>
+    <div class="item five">
+<h>Categories</h>
+<p>Category1</p>
+<p>Category2</p>
+<p>Category3</p>
+<p>Category4</p>
+<p>Category5</p>
+</div>
+    <div class="item six">
+<img class="meme one" src="./m8zmo.jpg" alt="whaaat" />
+<div class="main"><h>Text</h>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u
+t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+nisi ut aliquip ex ea commodo consequat.</p></div>
+<div class="category">
+<p>→</p>
+<p>Category | 1.2.2024</p></div>
+</div>
+    <div class="item seven">
+<img class="meme one" src="./m8zmo.jpg" alt="whaaat" />
+<div class="main"><h>Text</h>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u
+t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+nisi ut aliquip ex ea commodo consequat.</p></div>
+<div class="category">
+<p>→</p>
+<p>Category | 1.2.2024</p></div>
+</div>
+    <div class="item eight">
+<img class="meme one" src="./m8zmo.jpg" alt="whaaat" />
+<div class="main"><h>Text</h>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u
+t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+nisi ut aliquip ex ea commodo consequat.</p></div>
+<div class="category">
+<p>→</p>
+<p>Category | 1.2.2024</p></div>
+</div>
+    <div class="item footer">footer</div>
+
+</div>
+</body>
+
+</html>
